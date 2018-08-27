@@ -4,6 +4,8 @@ A game where you compete to be the best surgeon using the Mona Laser robotic sys
 ## Gameplay
 * Play as a surgeon to perform multiple surgeries
 * Surgeries are 2-button sequences that you must memorize
+* Four (4) buttons (i.e. tools) are available for surgeon to use
+* Player has option for 4 buttons to be `IJKL` OR `WASD`
 * Learn and memorize up to 16 surgeries and their 2-button sequences
 * Head to the Operating Room and execute the correct surgery for continuously incoming patients
 * Time is of the essence, you have 10 seconds to execute a surgery's 2-button sequence correctly
