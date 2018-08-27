@@ -1,0 +1,126 @@
+QLabel {
+	color: rgb(165, 165, 165);
+	background-color: rgb(0, 0, 0);
+}
+
+QWidget {
+	background-color: rgb(0, 0, 0);
+	selection-background-color: #AA0F0F;
+}	
+
+
+QSpinBox{
+	background-color: rgb(0, 0, 0);
+	color: rgb(165, 165, 165);
+	border: 1px solid #AA0F0F;
+	border-radius: 2px;
+	padding: 1px 18px 1px 3px;
+	selection-background-color: #AA0F0F;
+}
+
+QGroupBox{
+	color: rgb(165, 165, 165);
+	background-color: rgb(0, 0, 0);
+	border: 1px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    margin-top: 1ex; 
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 3px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+QPushButton {
+    border-width: 1px;
+	color: rgb(165, 165, 165);
+	background-color: rgb(0, 0, 0);
+	border-width: 1px;
+	border-color: #AA0F0F;
+	border-style: solid;
+	border-radius: 10;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+QPushButton::hover {
+	border-width: 1px;
+	color: rgb(165, 165, 165);
+	background-color: rgb(30, 30, 30);
+	border-width: 1px;
+	border-color: #AA0F0F;
+	border-style: solid;
+	border-radius: 10;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+QPushButton:pressed {
+  	background-color: #AA0F0F;
+}
+
+QLineEdit{
+	color: rgb(165, 165, 165);
+	background-color: rgb(0, 0, 0);
+	border: 1px solid #AA0F0F;
+	border-radius: 2px;
+	padding: 1px 18px 1px 3px;
+}
+
+QRadioButton{
+	color: rgb(165, 165, 165);
+	background-color: rgb(0, 0, 0);
+}
+
+QMenuBar::item {
+	background: transparent;
+	color: rgb(165, 165, 165);
+}
+
+QMenuBar {
+	background: transparent;
+	color: rgb(165, 165, 165);
+	padding 0px 3px;
+	border-radius: 2px;
+}
+
+QMenuBar::item:selected {
+	background: #545454;
+}
+
+QMenu::item:selected {
+	background-color: #545454;
+}
+
+QMenu{
+	background-color: rgb(50, 50, 50);
+	color: rgb(165, 165, 165);
+}
+
+QMessageBox {
+	background-color: rgb(0, 0, 0);
+	color: rgb(165, 165, 165);
+}
+
+QProgressBar {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+QProgressBar::chunk {
+    background-color: #FF0000;
+    width: 20px;
+}
+QFrame[frameShape="4"] {
+    color: white;
+}
+
+QFrame[frameShape="5"] {
+    color: white;
+}

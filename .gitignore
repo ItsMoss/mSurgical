@@ -1,0 +1,6 @@
+.vs/
+x64/
+./mSurgical/logs/
+./mSurgical/logs/*
+./mSurgical/surgicalfiles/
+./mSurgical/surgicalfiles/*

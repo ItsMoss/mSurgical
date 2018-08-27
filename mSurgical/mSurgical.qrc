@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/mSurgical">
+        <file>Resources/patient.png</file>
+        <file>Resources/monalaser.png</file>
+    </qresource>
+</RCC>
